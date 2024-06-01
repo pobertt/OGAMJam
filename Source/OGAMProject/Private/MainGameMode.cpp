@@ -33,7 +33,7 @@ void AMainGameMode::StartPlay()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("Start Play called"));
 
-	//StartPlayEvent();
+	StartPlayEvent();
 
 	/* Initialize stuff here */
 
@@ -41,9 +41,8 @@ void AMainGameMode::StartPlay()
 
 	Super::StartPlay();
 }
-/*
-void AMainGameMode::StartPlayEvent()
+
+void AMainGameMode::StartPlayEvent_Implementation()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("StartPlayEvent Default Implementation called"));
 }
-*/

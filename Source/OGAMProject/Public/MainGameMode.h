@@ -27,8 +27,8 @@ public:
 		virtual void SetTestCount(int32 newTestCount);
 	
 	virtual void StartPlay();
-	/*
+	
 	UFUNCTION(BlueprintNativeEvent, Category = "Test", DisplayName = "Start Play")
 		void StartPlayEvent();
-		*/
+		
 };
